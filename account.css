@@ -1,0 +1,214 @@
+@media only screen and (min-width:1501px){
+h5{
+ padding-top: 50px;
+    font-family: 'Noto Serif', serif;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 40px;
+    line-height: 30px;
+}
+h4{
+    padding-top: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#920303;
+    font-size: 80px;
+}
+legend{
+   font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    padding-top: 0px;
+}
+fieldset{
+    padding-top: 30px;
+}
+p2{
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+select{
+    font-size:1em;
+}
+form{
+    padding-left:10px;
+    padding-right: 10px;
+}
+.textbox{
+    height:35px;
+    max-width: 60%
+}
+    .butt{
+         background-color: red;
+        border-radius:50px;
+        color: white;
+        font-family: 'Gloria Hallelujah', cursive;
+        font-size: 15px;
+        text-decoration: none;
+        cursor: pointer;
+        border:solid;
+        width:150px;
+        border-color: black;
+    }
+}
+
+@media only screen and (min-width:1001px) and (max-width:1500px){
+h5{
+ padding-top: 20px;
+    font-family: 'Noto Serif', serif;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 20px;
+    line-height: 25px;
+}
+h4{
+    padding-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#920303;
+    font-size: 50px;
+}
+legend{
+   font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    padding-top: 0px;
+}
+fieldset{
+    padding-top: 10px;
+}
+p2{
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+select{
+    font-size:1em;
+}
+form{
+    padding-left:10px;
+    padding-right: 10px;
+}
+.textbox{
+    height:30px;
+    max-width: 60%;
+}
+.butt{
+     background-color: red;
+    border-radius:50px;
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 12px;
+    text-decoration: none;
+    cursor: pointer;
+    border:solid;
+    width:120px;
+    border-color: black;
+    }
+}
+
+@media only screen and (max-width:500px){
+h5{
+ padding-top: 20px;
+    font-family: 'Noto Serif', serif;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 20px;
+    line-height: 28px;
+}
+h4{
+    padding-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#920303;
+    font-size: 40px;
+}
+legend{
+   font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+}
+fieldset{
+    padding-top: 10px;
+}
+p2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+
+}
+select{
+    font-size:1em;
+}
+form{
+    padding-left:5px;
+    padding-right: 5px;
+}
+.textbox{
+    height:20px;
+    max-width: 60%;
+}
+.butt{
+     background-color: red;
+    border-radius:50px;
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    border:solid;
+    width:100px;
+    border-color: black;
+}
+}
+@media only screen and (min-width:501px) and (max-width:1000px){
+h5{
+ padding-top: 50px;
+    font-family: 'Noto Serif', serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 80px;
+    line-height: 35px;
+}
+h4{
+    padding-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#920303;
+    font-size: 50px;
+}
+legend{
+   font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+}
+fieldset{
+    padding-top: 70px;
+}
+p2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+
+}
+select{
+    font-size:1em;
+}
+form{
+    padding-left:10px;
+    padding-right: 10px;
+}
+.textbox{
+    height:40px;
+    max-width: 60%;
+}
+.butt{
+     background-color: red;
+    border-radius:50px;
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border:solid;
+    width:120px;
+    border-color: black;
+}
+    }
