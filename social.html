@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta charset="UTF-8">
+  <meta name="description" content="A friendly community for musicians to engage, meet others, listen to music, play instruments, and purchase instruments and equipment.">
+  <meta name="keywords" content="Musicians, Instruments, Social, Friends">
+  <meta name="author" content="Jacob Maurer">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Between Notes</title>
+      <link rel="stylesheet" href="musicboxother.css">
+    <link rel="stylesheet" href="musicstyleother.css">
+    <link rel="stylesheet" href="vinylinstrument.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111025204-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111025204-1');
+</script>
+    <script>
+function Instruments() {
+    var x = document.getElementById("instr");
+    var y = document.getElementById("less");
+    var z = document.getElementById("acco");
+    var a = document.getElementById("loca");
+
+        x.style.display = "block";
+        y.style.display = "none";
+        z.style.display = "none";
+        a.style.display = "none";
+    
+}
+function Lessons() {
+    var x = document.getElementById("less");
+     var y = document.getElementById("instr");
+    var z = document.getElementById("acco");
+    var a = document.getElementById("loca");
+  
+        x.style.display = "block";
+         y.style.display = "none";
+        z.style.display = "none";
+        a.style.display = "none";
+    
+}
+function Account() {
+    var x = document.getElementById("acco");
+     var y = document.getElementById("less");
+    var z = document.getElementById("instr");
+    var a = document.getElementById("loca");
+   
+        x.style.display = "block";
+         y.style.display = "none";
+        z.style.display = "none";
+        a.style.display = "none";
+    
+}
+function Location() {
+    var x = document.getElementById("loca");
+     var y = document.getElementById("less");
+    var z = document.getElementById("acco");
+    var a = document.getElementById("instr");
+   
+        x.style.display = "block";
+         y.style.display = "none";
+        z.style.display = "none";
+        a.style.display = "none";
+    
+}
+       
+
+</script>
+    
+    
+    
+</head>
+<body>    
+   
+    
+    <div id="wrapper">
+    
+         <div class="z2 box"><!--just space--></div>
+        <div class="y box"><!--just space--></div>
+        <div class="z box"><!--just space--></div>
+        
+    <div class="a box"><!--LOGO-->
+        <a href=musichome.html><img src="photos/logo2.jpg" width=100% height=100%></a>
+        </div>
+   <div class="a box"><!--LOGO-->
+        <a href=musichome.html><img src="photos/logo2.jpg" width=100% height=100%></a>
+        </div>
+    <div class="b box"><!--CREDIT CARD-->
+        <a href=account.html><img src="photos/credit.jpg" width=100% height=100%></a>
+        </div>
+    <div class="c box"><!--ACCOUNT-->
+        <a href=account.html><img src="photos/account.jpg" width=100% height=100%></a>
+        </div>
+    <div class="d box"><!--CART-->
+        <a href=instruments.html><img src="photos/cart.jpg" width=100% height=100%></a>
+    </div>
+    <div class="e box"><!--NUMBER-->
+        <img src="photos/phone.jpg" width=100% height=100%>
+        </div>
+    <div class="f box"><!--SEARCH-->
+        <style> 
+        input[type=text] {
+            width: 100%;
+            box-sizing: border-box;
+            border: 2px solid black;
+            border-radius: 4px;
+            font-size: 16px;
+            background-color: lightcyan;
+            background-image: url('searchicon.png');
+            background-position: 10px 10px; 
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            -webkit-transition: width 0.4s ease-in-out;
+            transition: width 0.4s ease-in-out;
+        }
+        input[type=text]:focus {
+            width: 100%;
+        }
+        </style>
+        <form>
+            <input type="text" name="search" placeholder="Search..">
+        </form>
+        </div>
+  
+    <div class="g box"><!--NAV?-->
+        
+        <ul>
+    <li><button class="button button1" onclick="Instruments()">Instruments</button></li>
+    <li><button class="button button2" onclick="Lessons()">Lessons</button></li>
+    <li><button class="button button3" onclick="Account()">Account</button></li>
+    <li><button class="button button4" onclick="Location()">Music</button></li>
+        </ul>
+        
+        
+        </div>
+     <div class="h box"><!--SUB NAV?-->
+        <div id="instr"><ul>
+            <a href=instruments.html><li2>Guitar</li2></a>
+            <a href=instruments.html><li2>Piano</li2></a>
+            <a href=instruments.html><li2>Drums</li2></a>
+            <a href=instruments.html><li2>Microphones</li2></a>
+            </ul></div>
+        <div id="less" class="hidden"><ul>
+            <a href=lesson.html><li2>Instrument</li2></a>
+           <a href=lesson.html> <li2>Price</li2></a>
+            <a href=lesson.html><li2>Instructor</li2></a>
+            <a href=lesson.html><li2>Progression</li2></a>
+            </ul></div>
+        <div id="acco" class="hidden"><ul>
+            <a href=account.html><li2>Sign-in</li2></a>
+            <a href=account.html><li2>Sign-up</li2></a>
+            <a href=social.html><li2>Acc Settings</li2></a>
+            <a href=social.html><li2>Friends</li2></a>
+            </ul></div>
+        <div id="loca" class="hidden"><ul>
+            <a href=vinyl.html><li2>CDs</li2></a>
+            <a href=vinyl.html><li2>Bands</li2></a>
+            <a href=vinyl.html><li2>Sales</li2></a>
+            <a href=vinyl.html><li2>Vinyl</li2></a>
+            </ul></div>
+    </div>
+    
+    <!--From here up is the nav stuff present each page-->    
+        
+        <div class="i box">
+            <h2>Join the Community</h2>
+        </div>
+          <div class="j box">
+            <img class="ew pic" src="photos/ewbaite.jpg" width=65% height=85%>
+        </div>
+        <div class="k box">
+            <img class="ba pic" src="photos/base.jpg" width=68% height=80%>
+        </div>
+        <div class="l box">
+            <img class="re pic" src="photos/record.jpg" width=68% height=50%>
+        </div>
+        
+        
+        <div class="m box">
+            
+            <img src="bars.png" width=100%% height=1%>
+          <h4>Join the Forums
+            </h4><h6>Popular Topic: what's an Ondes Martenot?</h6>
+            <h6>Created by: KillerMethBaby1996</h6>
+            <h5>Electronic music stems back decades ago. An early example of on of these instruments is the Ondes Martenot. The instrument lets out an eerie wavering of a note. Sounds are produced by the frequency of oscillation in vacuum tubes inside the instrument. It's design is similar to a keyboard. The ondes martenot had largely fell into obscurity until recently.</h5>
+            <br>
+           
+            <img src="bars.png" width=100% height=1%>
+        </div>
+        <div class="mpic box"><img src="photos/ondes.jpg" width=300% height=80%></div>
+        
+        <div class="n box">
+        <img src="bars.png" width=100%% height=2%>
+            <h4>Recommended Friends
+            </h4><h6>User: Bathroom_Bill41</h6>
+            <h6></h6>
+            <h5>Known better by his real name, Bill Johnson. Bill is a drummer from the Rochester area, who has played in several bands and in several local venues across the city. He has also recorded a few EPs and a full album with other local musicians. His music interests are Jazz, Rock, and Death Metal. In order to support himself before his music career takes off, Bill work part-time as a bathroom attendent at a local night-club!</h5>
+            <br>
+           
+            <img src="bars.png" width=100% height=2%>
+        </div>
+        <div class="npic box"><img src="photos/bill.jpg" width=300% height=80%></div>
+        
+  
+    
+    <!--from here down is the footer stuff each page-->    
+    <div class="o box"><!--FOOT NAV--></div> 
+    <div class="p box"><!--SEARCH HEADER-->
+        <a href="#"><p1>Email-List</p1></a>
+        </div> 
+    <div class="q box"><!--SEARCH-->
+         <form>
+            <input type="text" name="search" placeholder="Search..">
+        </form></div> 
+    <div class="r box"><!--BUTTON NEXT TO SEARCH-->
+        <a href="#"><p1>Sign-up</p1></a>
+        </div> 
+    <div class="s box"><!--FOOTER PIC LEFT-->
+        
+        </div> 
+    <div class="t box"><!--FOOTER PIC MID--></div> 
+    <div class="u box"><!--FOOTER PIC RIGHT--></div> 
+    <div class="v box"><!--foot info-->
+        <h3>Services:</h3>
+            <br><li1>Repair</li1>
+            <br><li1>Rentals</li1>
+            <br><li1>Lessons</li1>
+            <br><li1>Workshops</li1>
+        </div> 
+    <div class="w box"><!--foot info-->
+        <h3>Connect:</h3>
+            <br><li1>Twitter</li1>
+            <br><li1>Facebool</li1>
+            <br><li1>Instagram</li1>
+            <br><li1>MySpace (heck yeah!)</li1>
+        
+    </div> 
+    <div class="x box"><!--download box-->
+        <img src="photos/app.png" width=100% height=100%>
+        </div> 
+        
+        
+       
+    </div>
+
+
+
+</body>
+</html>

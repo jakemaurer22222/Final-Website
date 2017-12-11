@@ -1,0 +1,549 @@
+html, body, div, span, h1, h2, h4, h5, h6, p, blockquote, a, em, img, ul, li,article, aside, canvas, footer, header, menu, nav, section, summary, audio, video { 
+  margin: 0; 
+  padding: 0; 
+  border: 0; 
+  font-size: 100%; 
+  font: inherit; 
+  vertical-align: baseline;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+.g{
+    text-align: center;
+    align-content: center;
+}
+li{
+    display: block;
+ }
+p{
+ color: white;
+}
+@media only screen and (max-width:500px) and (min-width:0px){
+   #wrapper {
+        padding-top: 0px;
+        margin: auto;
+        display: grid;
+        /* Display as a Grid */
+        
+        grid-template-columns:.05fr 1fr .05fr 1fr .05fr 1fr .05fr ;
+        grid-template-rows:50px 40px 10px 300px 15px 50px 15px 50px 15px /*10 header ends, content starts*/300px 100px 300px 100px 300px 100px 400px 10px 400px 10px 400px 10px /*22 footer stuff starts here*/ 50px 10px 40px 10px 50px 10px 350px 10px 250px 10px 200px 10px;
+    }
+     .z2{
+        grid-row: 23/34;
+        grid-column: 1/8;
+        background-color: darkgrey; 
+    }
+    .a{/*logo*/
+        grid-row:4/5;
+        grid-column:2/7;
+    }
+     .b{/*credit card*/
+        grid-row:8/9;
+        grid-column:6/7;
+       
+    }
+    .c{/*account*/
+        grid-row: 8/9;
+        grid-column: 2/3;
+        
+    }
+    .d{/*cart*/
+        grid-row: 6/7;
+        grid-column:6/7 ;
+        
+    }
+    .e{/*phone number*/
+        grid-row: 8/9;
+        grid-column:4/5 ;
+       
+    }
+    .g{/*nav*/
+        grid-row:1/2;
+        grid-column:2/7;
+       
+    }
+    .f{/*search*/
+        grid-row: 6/7;
+        grid-column:2/5 ;
+    }
+    .h{/*subnav*/
+        grid-row:2/3;
+        grid-column:2/7 ;
+    }
+     .o{/*footer nav*/
+        grid-row: 22/23;
+        grid-column: 1/8;
+        
+    }
+    .p{/*search header foot*/
+        grid-row: 24/25;
+        grid-column: 2/5;
+       
+    }
+    .q{/*footer search*/
+        grid-row: 26/27;
+        grid-column: 2/5;
+    }
+    .r{/*button next to search*/
+        grid-row: 26/27;
+        grid-column: 6/7;
+      
+    }
+    .s{/*footer pic left*/
+        grid-row: 28/29;
+        grid-column: 2/7;
+        
+    }
+    .u{
+        grid-row: 28/29;
+        grid-column: 2/7;
+       
+    }
+    .t{
+        grid-row: 28/29;
+        grid-column: 2/7;
+        
+    }
+    .v{/*footer info*/
+        grid-row: 30/31;
+        grid-column: 2/3;
+       
+    }
+    .w{/*footer info*/
+        grid-row: 30/31;
+        grid-column: 4/7;
+       
+    }
+    
+    .x{/*download box*/
+        grid-row: 32/33;
+        grid-column: 2/7;
+       
+    }
+    .y{ 
+        grid-row:1/2;
+        grid-column:1/2;
+        
+    }
+    .z{
+        grid-row:1/2;
+        grid-column:7/8;
+        
+    }
+    .i{/*slide show box*/
+        grid-row:10/22;
+        grid-column:2/7 ;
+        
+    }
+     .j{/*left pic*/
+        grid-row:16/17;
+        grid-column:2/7;
+    }
+    .k{/*mid pic*/
+        grid-row:18/19;
+        grid-column:2/7 ;
+    }
+    .l{/*right pic*/
+        grid-row:20/21;
+        grid-column:2/7 ;
+    }
+    .button{
+        padding-top:5px;
+        font-size: 15px
+    }
+    
+}
+
+@media only screen and (max-width:1000px) and (min-width:501px){
+     #wrapper {
+        padding-top: 0px;
+        margin: auto;
+        display: grid;
+        /* Display as a Grid */
+        
+        grid-template-columns:.05fr 1fr 5px .47fr .06fr .47fr 5px 1fr .05fr ;
+        grid-template-rows:50px 0px 40px 10px 500px 10px 100px 10px 120px 20px /*11 header ends, content starts*/500px 200px 200px 500px 200px 200px 200px 100px/*19 footer stuff starts here*/ 50px 10px 40px 10px 50px 10px 300px 10px 250px 10px;
+    }
+    .z2{
+        grid-row: 20/29;
+        grid-column: 1/10;
+        background-color: darkgrey; 
+    }
+    .a{/*logo*/
+        grid-row:5/6;
+        grid-column: 2/9;
+    }
+     .b{/*credit card*/
+        grid-row:7/8;
+        grid-column:8/9;
+       
+    }
+    .c{/*account*/
+        grid-row: 9/10;
+        grid-column: 2/3;
+       
+    }
+    .d{/*cart*/
+        grid-row: 9/10;
+        grid-column:8/9 ;
+      
+    }
+    .e{/*phone number*/
+        grid-row: 9/10;
+        grid-column:4/7 ;
+       
+    }
+    .g{/*nav*/
+        grid-row:1/2;
+        grid-column:1/10;
+      
+    }
+    .f{/*search*/
+        grid-row: 7/8;
+        grid-column:2/7 ;
+    }
+    .h{/*sub nav*/
+        grid-row:3/4;
+        grid-column:2/9;
+    }
+     .o{/*footer nav*/
+        grid-row: 19/20;
+        grid-column: 1/10;
+      
+    }
+    .p{/*search header foot*/
+        grid-row: 21/22;
+        grid-column: 4/7;
+        
+    }
+    .q{/*footer search*/
+        grid-row: 23/24;
+        grid-column: 2/7;
+    }
+    .r{/*button next to search*/
+        grid-row: 23/24;
+        grid-column: 8/9;
+       
+    }
+    .s{/*footer pic left*/
+        grid-row: 25/26;
+        grid-column: 2/5;
+        
+    }    
+    .t{/*foot pic mid*/
+         grid-row: 25/26;
+        grid-column: 6/9;
+        
+    }
+    .u{
+         grid-row: 25/26;
+        grid-column: 6/9;
+        
+    }
+    .v{/*footer info*/
+        grid-row: 27/28;
+        grid-column: 2/3;
+
+    }
+    .w{/*footer info*/
+        grid-row: 27/28;
+        grid-column: 4/7;
+      
+    }
+    
+    .x{/*download box*/
+        grid-row: 27/28;
+        grid-column: 8/9;
+        
+    }
+      .i{
+        grid-row:11/19;
+        grid-column:2/9 ;
+         
+    }
+    .j{
+        grid-row:16/18;
+        grid-column:2/3;
+        
+    }
+    .k{
+        grid-row:16/18;
+        grid-column:7/9;
+    }
+    .l{
+        grid-row:16/18;
+        grid-column:3/8 ;
+    }
+}
+
+@media only screen and (max-width:1500px) and (min-width:1001px) {
+     #wrapper {
+        padding-top: 10px;
+        margin: auto;
+        display: grid;
+        /* Display as a Grid */
+        
+        grid-template-columns: 1.5fr 1fr 1fr 20px .95fr 20px .95fr 20px .98fr 15px .98fr 1.5fr ;
+        grid-template-rows:  60px 85px 80px 15px 50px 40px 20px 550px 15px 250px 15px 250px 20px 50px 15px 40px 15px 50px 20px 300px 10px 250px 20px;
+
+    }
+    .z2{
+        grid-row: 15/25;
+        grid-column: 1/13;
+        background-color: darkgrey; 
+    }
+     .a{/*Logo here*/
+        grid-row:1/4;
+        grid-column:2/4;
+        
+    }
+    .b{/*credit card*/
+        grid-row:2/3;
+        grid-column:5/6;
+        
+    }
+    .c{/*account*/
+        grid-row: 2/3;
+        grid-column: 9/10;
+       
+    }
+    .d{/*cart*/
+        grid-row: 3/4;
+        grid-column:11/12 ;
+    }
+    .e{/*phone number*/
+        grid-row: 2/3;
+        grid-column:11/12 ;
+        
+    }
+    .f{/*search*/
+        grid-row: 3/4;
+        grid-column:5/10 ;
+        padding-top: 20px;
+    }
+    .g{/*nav*/
+        grid-row: 5/6;
+        grid-column: 2/12;
+        
+    }
+    .y{/*nav space*/
+        grid-row:5/6;
+        grid-column:1/2;
+      
+    }
+    .z{/*nav space*/
+        grid-row:5/6;
+        grid-column:12/13 ;
+       
+        
+    }
+    .h{/*sub nav*/
+        grid-row: 6/7;
+        grid-column: 2/12;
+      
+    }
+    .o{/*footer nav*/
+        grid-row: 14/15;
+        grid-column: 1/13;
+     
+    }
+    .p{/*search header foot*/
+        grid-row: 16/17;
+        grid-column: 4/7;
+      
+    }
+    .q{/*footer search*/
+        grid-row: 18/19;
+        grid-column: 4/8;
+    }
+    .r{/*button next to search*/
+        grid-row: 18/19;
+        grid-column: 9/10;
+       
+    }
+    .s{/*footer pic left*/
+        grid-row: 20/21;
+        grid-column: 2/4;
+        
+    }
+    .t{/*footer pic mid*/
+        grid-row: 20/21;
+        grid-column: 5/8;
+       
+    }
+    .u{/*footer pic right*/
+        grid-row: 20/21;
+        grid-column: 9/12;
+       
+    }
+    .v{/*footer info*/
+        grid-row: 22/23;
+        grid-column: 2/4;
+       
+    }
+    .w{/*footer info*/
+        grid-row: 22/23;
+        grid-column: 5/8;
+       
+    }
+    .x{/*download box*/
+        grid-row: 22/23;
+        grid-column: 9/12;
+      
+    }
+
+     .i{
+         grid-row: 8/13;
+        grid-column: 2/12;
+    }
+    .j{
+        grid-row:8/11;
+        grid-column:1/2;
+    }
+    .k{
+        grid-row:9/13;
+        grid-column:12/13;
+    }
+    .l{
+        grid-row:8/12;
+        grid-column:12/13;
+    }
+    
+}
+
+@media only screen and (min-width:1501px){
+    #wrapper {
+        padding-top: 10px;
+        margin: auto;
+        display: grid;
+        /* Display as a Grid */
+        
+        grid-template-columns:1.25fr 1fr 1fr 30px .95fr 30px .95fr 30px .98fr 30px .98fr 1.25fr ;
+        grid-template-rows:  80px 100px 90px 25px 50px 40px 35px 650px 45px 250px 30px 250px 30px 50px 15px 40px 15px 50px 20px 350px 10px 250px 20px;
+
+    }
+     .z2{
+        grid-row: 15/25;
+        grid-column: 1/13;
+        background-color: darkgrey; 
+    }
+    .a{/*Logo here*/
+        grid-row:1/4;
+        grid-column:2/4;
+       
+    }
+    .b{/*credit card*/
+        grid-row:2/3;
+        grid-column:5/6;
+        padding-top: ;
+    }
+    .c{/*account*/
+        grid-row: 2/3;
+        grid-column: 9/10;
+        
+    }
+    .d{/*cart*/
+        grid-row: 3/4;
+        grid-column:11/12 ;
+      
+    }
+    .e{/*phone number*/
+        grid-row: 2/3;
+        grid-column:11/12 ;
+        padding-top: ;
+    }
+    .f{/*search*/
+        grid-row: 3/4;
+        grid-column:5/10 ;
+        padding-top: 25px;
+    }
+    .g{/*nav*/
+        grid-row: 5/6;
+        grid-column: 2/12;
+      
+    }
+    .y{/*nav space*/
+        grid-row:5/6;
+        grid-column:1/2 ;
+       
+    }
+    .z{/*nav space*/
+        grid-row:5/6;
+        grid-column:12/13 ;
+       
+    }
+    .h{/*sub nav*/
+        grid-row: 6/7;
+        grid-column: 2/12;
+       
+    }
+    .o{/*footer nav*/
+        grid-row: 14/15;
+        grid-column: 1/13;
+        
+    }
+    .p{/*search header foot*/
+        grid-row: 16/17;
+        grid-column: 4/7;
+       
+    }
+    .q{/*footer search*/
+        grid-row: 18/19;
+        grid-column: 4/8;
+    }
+    .r{/*button next to search*/
+        grid-row: 18/19;
+        grid-column: 9/10;
+        
+    }
+    .s{/*footer pic left*/
+        grid-row: 20/21;
+        grid-column: 2/4;
+        
+    }
+    .t{/*footer pic mid*/
+        grid-row: 20/21;
+        grid-column: 5/8;
+    }
+    .u{/*footer pic right*/
+        grid-row: 20/21;
+        grid-column: 9/12;
+        
+    }
+    .v{/*footer info*/
+        grid-row: 22/23;
+        grid-column: 2/4;
+
+    }
+    .w{/*footer info*/
+        grid-row: 22/23;
+        grid-column: 5/8;
+        
+    }
+    .x{/*download box*/
+        grid-row: 22/23;
+        grid-column: 9/12;
+       
+    }
+
+    .i{
+         grid-row: 8/13;
+        grid-column: 2/12;
+    }
+    .j{
+        grid-row:8/11;
+        grid-column:1/2;
+    }
+    .k{
+        grid-row:9/13;
+        grid-column:12/13;
+    }
+    .l{
+        grid-row:8/12;
+        grid-column:12/13;
+    }
+    
+}
+  
